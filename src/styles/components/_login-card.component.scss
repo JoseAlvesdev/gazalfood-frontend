@@ -1,0 +1,42 @@
+.c-login-card {
+  background-color: var(--gray);
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  flex-grow: 1;
+  padding: 96px;
+  border-radius: 0 var(--24px) var(--24px) 0;
+}
+
+.c-login-card__title {
+  font-size: var(--24px);
+  text-align: center;
+}
+
+.c-login-card__form {
+  flex-direction: column;
+  gap: var(--24px);
+}
+
+.c-login-card__button {
+  background-color: var(--primary);
+  border-radius: var(--6px);
+  color: var(--white);
+  cursor: pointer;
+  padding: var(--12px) 0;
+}
+
+.c-login-card_links {
+  justify-content: space-evenly;
+}
+
+.c-login-card__link {
+  text-decoration: none;
+  color: var(--blue-01);
+  padding: var(--8px) var(--12px);
+}
+
+.c-login-card__link:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}

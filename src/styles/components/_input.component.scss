@@ -1,0 +1,44 @@
+// Default input
+.c-input {
+  flex-direction: column;
+  gap: var(--8px);
+}
+
+.c-input__label {
+  font-weight: 700;
+  color: var(--blue-01);
+}
+
+.c-input__field {
+  background-color: var(--white);
+  padding: var(--8px) var(--12px);
+  color: var(--blue);
+  border-radius: var(--6px);
+  outline: 1px solid var(--blue);
+}
+
+.c-input__field::placeholder {
+  color: var(--blue);
+}
+
+.c-input__field:focus {
+  outline: 2px solid var(--blue);
+  outline-offset: 1px;
+  border: 1px solid var(--blue);
+}
+
+
+// Checkbox Input
+.c-input-checkbox {
+  gap: var(--8px);
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.c-input-checkbox__label {
+  color: var(--blue-01);
+}
+
+.c-input-checkbox__check {
+  accent-color: var(--primary);
+}
